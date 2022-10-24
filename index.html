@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bato-Bato Pick</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <br>
+    <h1>Bato Bato Pick</h1>
+    <br>
+  
+    <div class="selection">
+        <button class="fas fa-hand-rock" id="rock"> <br> Bato</button>
+        <button class="fas fa-hand-paper" id="paper"> <br> Papel</button>
+        <button class="fas fa-hand-scissors" id="scissors"> <br> Gunting</button>
+    </div>
+    <br><br>
+
+    <div class="container">
+        
+
+        <div class="section">
+            <div class="info">
+                <h3>Ikaw :</h3><span id="playerScore">0</span>
+            </div>
+            <div class="show">
+                <i class="fas fa-hand-rock"></i>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="info">
+                <h3>Kalaban :</h3><span id="computerScore">0</span>
+            </div>
+            <div class="show computer">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
+        </div>
+    </div>
+    <h2 id="demo">Subukan ang Swerte!</h2>
+</body>
+<script src="game.js" defer></script>
+</html>
